@@ -7,15 +7,15 @@ import Footer from 'components/Footer'
 import './styles/CommonStyles.scss'
 
 function App() {
-    return (
-        <div className="App">
-            <MenuBar />
-            <Hero />
-            <Work />
-            <ShowcaseProjects />
-            <Footer />
-        </div>
-    )
+  return (
+    <div className="App">
+      <MenuBar />
+      <Hero />
+      <Work />
+      <ShowcaseProjects />
+      <Footer />
+    </div>
+  )
 }
 
 export default App

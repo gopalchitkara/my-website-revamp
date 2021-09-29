@@ -9,8 +9,8 @@ function MenuBar() {
                     <div className="row mb-0">
                         <ul>
                             <li><a href="mailto:gopal.chitkara@gmail.com"><i className="far fa-envelope"></i></a></li>
-                            <li><a href="https://www.linkedin.com/in/gopalchitkara/" target="_blank"><i className="fab fa-linkedin"></i></a></li>
-                            <li><a href="https://github.com/gopalchitkara" target="_blank"> <i className="fab fa-github"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/gopalchitkara/" rel="noreferrer" target="_blank"><i className="fab fa-linkedin"></i></a></li>
+                            <li><a href="https://github.com/gopalchitkara" rel="noreferrer" target="_blank"> <i className="fab fa-github"></i></a></li>
                         </ul>
                     </div>
                 </div>

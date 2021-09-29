@@ -19,7 +19,7 @@ function Project({ project }) {
                         </div>
                     </div>
                     <div className="col s12">
-                        <a href={project.appLink} target="_blank">
+                        <a href={project.appLink} rel="noreferrer" target="_blank">
                             <img src={project.imagePath} alt={project.title} />
                         </a>
                     </div>
@@ -27,8 +27,8 @@ function Project({ project }) {
                         {project.summary}
                     </div>
                     <div className="col s12 project-actions">
-                        {project.appLink && <a href={project.appLink} target="_blank" className="primary-action">Try the app</a>}
-                        {project.repoLink && <a href={project.repoLink} target="_blank" className="secondary-action">View code repository <i className='fab fa-github' /></a>}
+                        {project.appLink && <a href={project.appLink} rel="noreferrer" target="_blank" className="primary-action">Try the app</a>}
+                        {project.repoLink && <a href={project.repoLink} rel="noreferrer" target="_blank" className="secondary-action">View code repository <i className='fab fa-github' /></a>}
                     </div>
                 </div>
             ) : (

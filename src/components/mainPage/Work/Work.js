@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import './Work.scss'
 import WorkExperience from './WorkExperience'
 import { workExperiences } from 'data'

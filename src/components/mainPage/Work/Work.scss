@@ -1,7 +1,13 @@
 @import '/src/styles/Variables.scss';
 
 .work-container {
-    margin-top: 50px;
+    margin-top: 0px;
+}
+
+@media screen and (min-width: $breakpoint-l) {
+    .work-container {
+        margin-top: 50px;
+    }
 }
 
 .section-subtitle {

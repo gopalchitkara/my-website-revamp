@@ -8,7 +8,7 @@ function Hero() {
                 <div className="col s12 l4 xl3">
                     <div className="profile-picture ">
                         {/* <img src="/public/media/images/avatar.png" alt="gopal-chitkara" /> */}
-                        <img src="/public/media/images/my-image.jpg" alt="gopal-chitkara" />
+                        <img src="/media/images/my-image.jpg" alt="gopal-chitkara" />
                     </div>
                 </div>
                 <div className="col s12 l8 xl9">
@@ -24,7 +24,7 @@ function Hero() {
             </div>
             <div className="row">
                 <div className="s12 tech-stack-banner">
-                    <img src="/public/media/images/logos.png" alt="tech-stack" />
+                    <img src="/media/images/logos.png" alt="tech-stack" />
                 </div>
             </div>
         </div>
