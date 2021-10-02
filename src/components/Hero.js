@@ -17,7 +17,7 @@ function Hero() {
                             <p className="title hero-title">I'm a Front-End Developer who loves to build awesome web apps and drink Coffee.</p>
                         </div>
                         <div className="col s12">
-                            <p className="subtitle hero-subtitle">Over last 5 years I helped some big brands build performant user interfaces for their web apps to deliver seamless user experiences. I can help you do the same.</p>
+                            <p className="subtitle hero-subtitle">Over the last 5 years, I helped some big brands build performant user interfaces for their web apps to deliver seamless user experiences. I can help you do the same.</p>
                         </div>
                     </div>
                 </div>

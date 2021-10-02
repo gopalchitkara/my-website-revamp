@@ -29,7 +29,7 @@ const workExperiences = [
             state: "Uttar Pradesh",
             country: "India"
         },
-        summary: "Developed user dashboards to import product data into the application ecosystem and provided high quality fixes for the bugs occuring in the application UI for a US based client dealing in Eye-care and Ecommerce domain.",
+        summary: "Developed user dashboards to import product data into the application ecosystem and provided high-quality fixes for the bugs occurring in the application UI for a US-based client dealing in Eye-care and E-commerce domain.",
         achievements: ["Presented a Tech Talk on the organization level on how to make Serverless Applications using AWS"],
         skillsUsed: ["React", "Redux", "HTML", "CSS", "Javascript", "SASS", "Git", "Github"]
     },
@@ -46,8 +46,8 @@ const workExperiences = [
             state: "Maharashtra",
             country: "India"
         },
-        summary: "Developed projects from scratch for a Belgium based client to comply with the government's recommendation of a nutrient profiling system for edible products which directly impacted the customer's decision of buying the products and improve sales.",
-        achievements: ["Invited by the Client to onshore delivery center in Belgium to deploy a project which had an effect on 1700+ products sold by Ahold Delhaize in the whole of Belgium"],
+        summary: "Developed projects from scratch for a Belgium-based client to comply with the government's recommendation of a nutrient profiling system for edible products which directly impacted the customer's decision of buying the products and improve sales.",
+        achievements: ["Invited by the Client to onshore delivery center in Belgium to deploy a project which improved sales of 1700+ products sold by Ahold Delhaize in the whole of Belgium"],
         skillsUsed: ["HTML", "CSS", "Javascript", "ASP.Net MVC", "SQL Server", "Project Management", "Python"]
     }
 ]
@@ -56,8 +56,8 @@ const projects = [
     {
         id: 1,
         title: "Disney+ Clone",
-        subtitle: "A clone of a popular streaming srevice",
-        summary: "I built this app to showcase my skills and share my knowledge with the larger audience. The app is built with ReactJS, Redux toolkit, Styled Components, and Mirage JS. The app has a fully working video player with tracking of currently watching content and a watchlist.",
+        subtitle: "Clone of a popular streaming srevice",
+        summary: "I built this app to showcase my skills and share my knowledge with a larger audience. The app is built with ReactJS, Redux toolkit, Styled Components, and Mirage JS. The app has a fully working video player with tracking of currently watching content and a watchlist.",
         imagePath: "/media/images/disney-clone.png",
         appLink: "https://disneyclone.gopalchitkara.in/",
         repoLink: "https://github.com/gopalchitkara/disney-plus-hotstar-clone-ui",
@@ -67,7 +67,7 @@ const projects = [
         id: 2,
         title: "Reactor Builder",
         subtitle: "A powertool to speedup ReactJS development",
-        summary: "Reactor helps to plan and build react applications in just few minutes. You can intuitively set up your app's environment variables, the component and folder structure and then simply run an auto-generated script to set up the application on your system.",
+        summary: "Reactor helps to plan and build react applications in just a few minutes. You can intuitively set up your app's environment variables, the component, and folder structure and then simply run an auto-generated script to set up the application on your system.",
         imagePath: "/media/images/reactor.png",
         appLink: "https://reactor.gopalchitkara.in/",
         repoLink: null,

@@ -12,7 +12,7 @@ function Footer() {
                             Get in touch
                         </div>
                         <div className="col s12 contact-message">
-                            I'm always excited to talk about anything frontend and work on some exciting projects. Have a question? message me and let's discuss it over coffee.
+                            I'm always excited to talk about anything frontend and work on some exciting projects. Have a question? message me and let's discuss it over a coffee.
                         </div>
                         <div className="col s12 contact-email">
                             Send me an email at <a href="mailto:gopal.chitkara@gmail.com">gopal.chitkara@gmail.com</a>
