@@ -29,9 +29,9 @@ export const data = {
       path: 'src/assets/media/images/my-image.jpg',
       alt: 'gopal-chitkara',
     },
-    title: "I'm a Front-End Developer who loves to build awesome web apps and drink Coffee.",
+    title: "I'm a Lead Software Engineer who loves to build awesome web apps and drink Coffee.",
     subtitle:
-      'Over the last 7 years, I helped some big brands build performant user interfaces for their web apps to deliver seamless user experiences. I can help you do the same.',
+      'With over 7 years of hands-on expertise in building high-impact web applications at scale, I have helped some big brands build performant user interfaces for their web apps to deliver seamless user experiences. I can help you do the same.',
     techStackBanner: {
       path: 'src/assets/media/images/logos.png',
       alt: 'tech-stack',
@@ -114,7 +114,7 @@ export const data = {
             country: 'India',
           },
           summary:
-            'Working in the Payment Gateway Team, developing highly scalable Checkout JS Library that enables seamless online payments across desktop and mobile devices.',
+            'Working in the Payment Gateway Team, developing highly scalable Checkout JS Library that enables seamless online payments across desktop and mobile devices. Also building administrative applications used for payment reconciliation by merchants and building micro backends to support Payment Gateway integration at scale.',
           achievements: [],
           skillsUsed: [
             'React JS',
