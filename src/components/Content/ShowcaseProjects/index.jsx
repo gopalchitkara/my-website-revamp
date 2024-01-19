@@ -1,21 +1,20 @@
-import React from 'react'
-import Project from './Project'
-import './ShowcaseProjects.scss'
-import { projects } from 'data'
+import Project from "./Project";
+import './style.scss'
 
-function ShowcaseProjects() {
+function ShowcaseProjects(props) {
+    const { showcaseProjects = {} } = props;
+
     return (
         <section className="showcase-projects-container container" id="projects">
             <div className="row">
                 <div className="col s12">
-                    <div className="title showcase-title">Showcase projects with public code</div>
+                    <div className="title showcase-title">{showcaseProjects?.title}</div>
                 </div>
             </div>
-            {projects.map(project => {
+            {showcaseProjects?.projects?.map(project => {
                 return <Project project={project} key={project.id} />
             })}
         </section >
     )
 }
-
 export default ShowcaseProjects

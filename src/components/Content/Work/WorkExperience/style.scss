@@ -1,24 +1,5 @@
 @import '/src/styles/Variables.scss';
 
-.work-container {
-    margin-top: 0px;
-}
-
-@media screen and (min-width: $breakpoint-l) {
-    .work-container {
-        margin-top: 50px;
-    }
-}
-
-.section-subtitle {
-    color: rgb(119, 119, 119);
-    margin-top: 5px !important;
-}
-
-.work-experience-container {
-    margin-top: 20px;
-}
-
 .work-experience {
     padding-bottom: 25px;
     border-bottom: solid 1px rgb(220, 220, 220);
