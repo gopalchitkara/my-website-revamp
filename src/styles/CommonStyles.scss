@@ -1,39 +1,38 @@
 @import '/src/styles/Variables.scss';
 
 .title {
-    font-size: 2.2rem;
-    font-weight: 700;
-    text-align: center;
-    line-height: 1.4;
-    font-family: $secondary-font;
+  font-size: 2.2rem;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.4;
+  font-family: $secondary-font;
 }
 
-
 .subtitle {
-    font-size: 1.4rem;
-    text-align: center;
-    margin-top: 0px;
-    line-height: 1.6;
+  font-size: 1.4rem;
+  text-align: center;
+  margin-top: 0px;
+  line-height: 1.6;
 }
 
 .summary {
-    font-size: 1.3rem;
-    line-height: 1.5;
-    word-spacing: 2px;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  word-spacing: 2px;
 }
 
 .skills-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 10px 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px 10px;
 
-    .skill {
-        color: rgb(0, 0, 0);
-        background-color: rgb(235, 235, 235);
-        padding: 3px 6px;
-        border-radius: 3px;
-        font-weight: 500;
-        font-family: $secondary-font;
-    }
+  .skill {
+    color: rgb(0, 0, 0);
+    background-color: rgb(235, 235, 235);
+    padding: 3px 6px;
+    border-radius: 3px;
+    font-weight: 500;
+    font-family: $secondary-font;
+  }
 }

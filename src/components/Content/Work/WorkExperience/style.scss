@@ -1,55 +1,54 @@
 @import '/src/styles/Variables.scss';
 
 .work-experience {
-    padding-bottom: 25px;
-    border-bottom: solid 1px rgb(220, 220, 220);
+  padding-bottom: 25px;
+  border-bottom: solid 1px rgb(220, 220, 220);
 
-    &:last-child {
-        border-bottom: none;
-    }
+  &:last-child {
+    border-bottom: none;
+  }
 }
 
 .company-details {
-    display: flex;
-    align-items: center;
-    margin-top: 10px;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
 
-    .company-logo {
-        img {
-            height: 60px;
-            width: auto;
-        }
+  .company-logo {
+    img {
+      height: 60px;
+      width: auto;
+    }
+  }
+
+  .company-info {
+    margin-left: 10px;
+
+    .company-name {
+      font-size: 1.8rem;
+      font-weight: 700;
+      line-height: 1;
+      font-family: $secondary-font;
     }
 
-    .company-info {
-        margin-left: 10px;
+    .designation {
+      color: rgb(119, 119, 119);
 
-        .company-name {
-            font-size: 1.8rem;
-            font-weight: 700;
-            line-height: 1;
-            font-family: $secondary-font;
-        }
+      span {
+        margin-right: 5px;
+      }
 
-        .designation {
-            color: rgb(119, 119, 119);
-
-            span {
-                margin-right: 5px;
-            }
-
-            .designation-title {
-                font-weight: 500;
-                font-size: 1.1rem;
-            }
-        }
+      .designation-title {
+        font-weight: 500;
+        font-size: 1.1rem;
+      }
     }
+  }
 }
 
-
 .experience-summary {
-    p {
-        margin-top: 12px;
-        margin-bottom: 12px;
-    }
+  p {
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
 }
