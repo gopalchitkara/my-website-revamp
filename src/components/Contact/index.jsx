@@ -1,23 +1,12 @@
-import './style.scss';
-
-function Contact(props) {
-  const {
-    data: { title = '', contactMessage = '', cta = {} },
-  } = props;
-
-  return (
-    <section className="container get-in-touch-container" id="getInTouch">
-      <div className="get-in-touch">
-        <div className="row">
-          <div className="col s12 title">{title}</div>
-          <div className="col s12 contact-message">{contactMessage}</div>
-          <div className="col s12 contact-email">
-            {`${cta?.message} `}
-            <a href={`mailto:${cta.email}`}>{cta.email}</a>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
+function Contact() {
+    return (
+        <section id="get-in-touch" className="mt-12 mb-10 xl:mt-20 xl:mb-14">
+            <div className="text-center text-3xl xl:text-4xl font-extrabold tracking-wide">Get in touch</div>
+            <div className="font-base text-center mt-7 tracking-wide xl:mt-14 xl:text-lg">{`I'm always excited to talk about anything frontend and work on some exciting projects. Have a question? message me and let's discuss it over a coffee.`}</div>
+            <div className="text-center">
+                <div className="inline-block text-center mt-4 tracking-wide xl:text-lg xl:mt-10 hover:scale-[1.05] transition-all"><a href={`mailto:gopal.chitkara@gmail.com`} >Send me an email at <span className="border-b-4 border-blue-400">{`gopal.chitkara@gmail.com`}</span></a></div>
+            </div>
+        </section>
+    );
 }
 export default Contact;

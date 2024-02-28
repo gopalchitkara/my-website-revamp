@@ -1,17 +1,6 @@
-import { Fragment } from 'react';
-import './style.scss';
-
-function Footer(props) {
-  const { children } = props;
-  return (
-    <Fragment>
-      {children}
-      <div className="container">
-        <div className="row">
-          <div className="col s12 copyright-mark">No copyright issues.</div>
-        </div>
-      </div>
-    </Fragment>
-  );
+function Footer() {
+    return (
+        <div className="text-center text-sm pt-4 pb-10">No copyright issues.</div>
+    );
 }
 export default Footer;
