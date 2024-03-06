@@ -39,13 +39,13 @@ function Projects() {
                     return (
                         <div key={project.id} className="mt-10 xl:mt-16">
                             <div className="text-2xl xl:text-3xl font-bold tracking-wide">{project.title}</div>
-                            <div className="text-base xl:text-lg font-medium text-gray-700">{project.subtitle}</div>
+                            <div className="text-base xl:text-lg font-medium text-gray-700 dark:text-gray-200">{project.subtitle}</div>
                             <div className="flex flex-row flex-wrap gap-x-2 gap-y-2 mt-4 mb-2">
                                 {project.skills.map(skill => {
                                     return (
                                         <div
                                             key={Math.random()}
-                                            className="bg-gray-200 px-2 py-[2px] rounded text-sm text-nowrap font-medium"
+                                            className="bg-gray-200 dark:text-gray-900 px-2 py-[2px] rounded text-sm text-nowrap font-medium"
                                         >{skill}</div>
                                     )
                                 })}
@@ -56,7 +56,7 @@ function Projects() {
                                 </a>
                             </div>
                             <div className="text-base xl:text-lg mt-4 tracking-wide">{project.summary}</div>
-                            <div className="my-4 lg:my-8 xl:my-10 flex flex-row flex-wrap gap-x-4">
+                            <div className="my-4 lg:my-8 xl:my-10 flex flex-row flex-wrap gap-2">
                                 <a
                                     href={project.appLink}
                                     target="_blank"
@@ -65,7 +65,7 @@ function Projects() {
                                 <a
                                     href={project.repoLink}
                                     target="_blank"
-                                    className="flex items-center justify-center px-4 py-2 border-gray-300 rounded bg-gray-300 text-black text-sm  tracking-wide hover:border-gray-200 hover:bg-gray-200 cursor-pointer transition-all h-10 select-none hover:scale-[1.05]"
+                                    className="flex items-center justify-center px-4 py-2 border-gray-300 dark:border-gray-100 dark:hover:border-gray-50 rounded bg-gray-300 dark:bg-gray-100 text-black text-sm  tracking-wide hover:border-gray-200 dark:hover:bg-gray-50 hover:bg-gray-200 cursor-pointer transition-all h-10 select-none hover:scale-[1.05]"
                                 >
                                     {`View code repository`}
                                     <svg

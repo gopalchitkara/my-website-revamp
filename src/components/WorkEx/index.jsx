@@ -96,7 +96,7 @@ function WorkEx() {
             <div className=" text-center text-3xl xl:text-4xl font-extrabold tracking-wide">
                 {`Previous Work`}
             </div>
-            <div className="text-center font-medium text-gray-700 xl:text-lg xl:mt-1">{`A brief of my engagements till date.`}</div>
+            <div className="text-center font-medium text-gray-700 dark:text-gray-300 xl:text-lg xl:mt-1">{`A brief of my engagements till date.`}</div>
             <div className="mt-5 xl:mt-10">
                 {workExperiences
                     .sort((a, b) => b.sequence - a.sequence)
@@ -109,13 +109,13 @@ function WorkEx() {
                                 <div className="flex flex-row items-center">
                                     <div className="">
                                         <img
-                                            className="h-16 w-16"
+                                            className="h-16 w-16 rounded-md"
                                             src={experience?.imagePath}
                                             alt={experience?.companyName} />
                                     </div>
                                     <div className="pl-2 xl:pl-4">
                                         <div className="text-xl xl:text-2xl font-bold">{experience?.companyName}</div>
-                                        <div className="text-sm xl:text-base text-gray-500">
+                                        <div className="text-sm xl:text-base text-gray-500 dark:text-gray-200">
                                             <span className="font-medium">{experience?.title}</span><span>{` / Full Time`}</span>
                                         </div>
                                     </div>
@@ -134,7 +134,7 @@ function WorkEx() {
                                         return (
                                             <div
                                                 key={Math.random()}
-                                                className="bg-gray-200 px-2 py-[2px] rounded text-sm text-nowrap font-medium"
+                                                className="bg-gray-200 dark:text-gray-900 px-2 py-[2px] rounded text-sm text-nowrap font-medium"
                                             >
                                                 {skill}
                                             </div>
