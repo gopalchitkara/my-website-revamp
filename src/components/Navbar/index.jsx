@@ -19,7 +19,7 @@ function Navbar(props) {
 
     return (
         <div className="flex flex-col items-center justify-center py-6 gap-y-5 md:flex-row md:justify-between">
-            <div className={`flex flex-row items-center w-full ${onThemeChange ? 'justify-between' : 'justify-center md:justify-start'}`}>
+            <div className={`flex flex-row items-center w-full md:w-auto ${onThemeChange ? 'justify-between' : 'justify-center md:justify-start'}`}>
                 <div className="flex flex-row gap-x-5 items-center">
                     <a
                         href="mailto:gopal.chitkara@gmail.com"
