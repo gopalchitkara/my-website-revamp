@@ -39,7 +39,7 @@ function Hero() {
                                 key={logo.id}
                                 className={`flex p-1 rounded-md overflow-hidden ${logo.visibleInDarkMode ? '' : 'dark:bg-gray-100'} transition-transform hover:scale-[1.1]`}
                             >
-                                <img className="rounded-md" src={logo.path} alt={logo.title} title={logo.title} />
+                                <img className="rounded-md h-full w-full" src={logo.path} alt={logo.title} title={logo.title} />
                             </figure>
                         )
                     })}
