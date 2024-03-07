@@ -17,7 +17,7 @@ const workExperiences = [
         achievements: [
             'Invited by the Client to onshore delivery center in Belgium to deploy a project which improved sales of 1700+ products sold by Ahold Delhaize in the whole of Belgium',
         ],
-        skillsUsed: ['HTML', 'CSS', 'Javascript', 'ASP.Net MVC', 'SQL Server', 'Project Management', 'Python'],
+        skillsUsed: ['HTML', 'CSS', 'Javascript', 'ASP.Net MVC', 'C#', 'SQL Server', 'Project Management', 'Python'],
     },
     {
         id: 2,
@@ -75,17 +75,17 @@ const workExperiences = [
                 'Also building administrative applications used for payment reconciliation by merchants and building micro backends to support Payment Gateway integration at scale.'],
         achievements: [],
         skillsUsed: [
-            'React JS',
-            'Redux',
-            'Hooks',
             'Javascript',
+            'MongoDB',
+            'Express JS',
+            'React JS',
+            'Node JS',
+            'Redux',
+            'RTK Query',
+            'Hooks',
             'HTML',
             'CSS',
-            'NodeJS',
-            'Git',
-            'Webpack',
-            'Jest',
-            'Enzyme',
+            'Git'
         ],
     },
 ];
