@@ -81,22 +81,30 @@ function Navbar(props) {
                     )}
                 </div>
 
-                <div className="md:hidden">
+                <div className="inline-flex md:hidden">
                     {onThemeChange &&
                         <ThemeChangeButton onThemeChange={onThemeChange} />
                     }
                 </div>
             </div>
-            <div className="flex flex-row gap-x-5 font-bold tracking-wide md:gap-x-4">
-                <a href="#about" className="transition-transform hover:scale-[1.1] text-nowrap">About</a>
-                <a href="#work" className="transition-transform hover:scale-[1.1] text-nowrap">Work</a>
-                <a href="#get-in-touch" className="transition-transform hover:scale-[1.1] text-nowrap">Get in touch</a>
-                <a href="#projects" className="transition-transform hover:scale-[1.1] text-nowrap">Projects</a>
-                <div className="hidden md:block ml-5">
+            <div className="flex flex-row gap-x-5 font-bold tracking-wide md:gap-x-4 items-center justify-center">
+                <button className="transition-transform hover:scale-[1.1] active:scale-[1]">
+                    <a href="#about">About</a>
+                </button>
+                <button className="transition-transform hover:scale-[1.1] active:scale-[1]">
+                    <a href="#work">Work</a>
+                </button>
+                <button className="transition-transform hover:scale-[1.1] active:scale-[1]">
+                    <a href="#get-in-touch">Get in touch</a>
+                </button>
+                <button className="transition-transform hover:scale-[1.1] active:scale-[1]">
+                    <a href="#projects">Projects</a>
+                </button>
+                <span className="hidden md:inline-flex ml-5">
                     {onThemeChange &&
                         <ThemeChangeButton onThemeChange={onThemeChange} />
                     }
-                </div>
+                </span>
             </div>
         </div >
     );

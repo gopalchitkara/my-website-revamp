@@ -11,8 +11,8 @@ function ThemeChangeButton(props) {
     const theme = useContext(ThemeContext);
 
     return (
-        <div
-            className="cursor-pointer transition-transform hover:scale-[1.1]"
+        <button
+            className="cursor-pointer transition-transform hover:scale-[1.1] active:scale-[0.95]"
             onClick={onThemeChange}
         >
             {theme === 'light' &&
@@ -32,7 +32,7 @@ function ThemeChangeButton(props) {
 
 
             }
-        </div>
+        </button>
     )
 }
 
